@@ -1,0 +1,34 @@
+body {
+  font-family: "Alte Haas Grotesk";
+  background-color: bisque;
+}
+.titre {
+  text-align: right;
+  color: #e5e1d1;
+  text-align: right;
+  font-family: "Alte Haas Grotesk";
+  font-size: 198px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.liste {
+  display: flex;
+  gap: 20px;
+  min-width: 0;
+  max-width: 100%;
+}
+.promo {
+  min-width: 0;
+  display: flex;
+  padding: 19px 11px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
